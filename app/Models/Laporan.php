@@ -33,6 +33,9 @@ class Laporan extends Model
         'status',
         'catatan_supervisor',
         'catatan_penolakan',
+        'inspection_result',
+        'root_cause',
+        'action_taken',
     ];
 
     public static function labelStatus(string $status): string
